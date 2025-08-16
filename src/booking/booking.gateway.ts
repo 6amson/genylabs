@@ -15,7 +15,7 @@ export class BookingGateway {
 
   broadcastBookingCreated(booking: Booking) {
     this.server.emit('booking.created', booking, () => {
-      console.log('📨 Client ack:', booking);
+      console.log('📨 Client booking sent');
     });
   }
 
