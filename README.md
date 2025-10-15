@@ -64,7 +64,7 @@ docker-compose exec app npm run migration:run
 ```
 
 
-## What You'd Improve With +4 Hours
+## Improvements
 
 1. **Conflict detection** (1h) - Prevent double-booking same time slot
 2. **Rate limiting** (30min) - Add @nestjs/throttler 
